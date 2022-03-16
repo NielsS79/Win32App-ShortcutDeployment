@@ -40,7 +40,7 @@ Write-Host;
 if ($config.VersionMarker) {
     $markerPath = "$(Get-RepositoryPath)\VersionMarkers";
     $markerFilename = "$($config.StartMenuFolder)$($config.Name).txt";
-    Write-Host 'Generating detection rule based on configuration. Use "Manually configure detection rules" to enter these values.'
+    Write-Host 'Generating detection rule for MEM based on configuration. See the README.md for more information.'
     Write-Host '   Rule type:        File';
     Write-Host "   Path:             $markerPath";
     Write-Host "   File or folder:   $markerFilename";
