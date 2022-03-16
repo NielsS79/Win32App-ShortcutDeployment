@@ -1,0 +1,16 @@
+{
+    "Name": "Three is a Cloud",
+    "Description": "The most awesomest blog in the cloud! Also, the newest and emptiest!",
+    "Target": {
+        "Program": "https://threeisacloud.tech/",
+        "Arguments": null,
+        "WorkingDirectory": null
+    },
+    "Location": {        
+        "StartMenu": false, 
+        "StartMenuFolder": null,
+        "Desktop": true,
+        "AllUsers": false
+    },    
+    "VersionMarker": true
+}
