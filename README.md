@@ -5,7 +5,7 @@ This collection of scripts and other data will enable you to install _and_ unins
 This solution was made with easy configuration in mind. You do not need to edit _any_ PowerShell script. The only this we need to change is the `shortcut.json` file in the `PAYLOAD` folder, which is of course a JSON-formatted textfile. It contains all the configurable values for a shortcut. 
 
 - **Name:** the (file)name the shortcut will receive.
-- **Description:** this text will be entered in the file's Desription attribute.
+- **Description:** this text will be entered in the file's Description attribute.
 - **Target.Program:** the program the shortcut will point to. 
 - **Target.Arguments:** the arguments the shortcut will use when executing Target.Program.
 - **Target.WorkingDirectory:** the directory Target.Program will be executed in. 
