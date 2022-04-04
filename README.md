@@ -1,5 +1,5 @@
 # Win32App-ShortcutDeployment
-This collection of scripts and other data will enable you to install _and_ uninstall shortcuts to the user's (or All User's) Desktop or Start Menu as Win32 apps. For the story behind the creation of this solution, please visit https://threeisacloud.tech/win32app-shortcut-deployment-cutting-it-short/. 
+This collection of scripts and other data will enable you to install _and_ uninstall shortcuts to the user's (or All User's) Desktop or Start Menu as Win32 apps. For the story behind the creation of this solution, please visit https://threeisacloud.tech/shortcut-deployment/. 
 
 ## Configuring a package
 This solution was made with easy configuration in mind. You do not need to edit _any_ PowerShell script. The only this we need to change is the `shortcut.json` file in the `PAYLOAD` folder, which is of course a JSON-formatted textfile. It contains all the configurable values for a shortcut. 
